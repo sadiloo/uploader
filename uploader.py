@@ -1,4 +1,4 @@
-# dev by : @MutePuker
+# dev by : @sl_king
 
 # -*- coding: utf-8 -*-
 import telebot
@@ -18,11 +18,11 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 redis = r.StrictRedis(host='localhost', port=6379, db=0,decode_responses=True)
-token = "TOKEN"
+token = "278209808:AAGoCUqqcdGDcGM5X98pYnEROMZ5tVjbfXE"
 -- YOUR TOKEB HERE :[
 bot = telebot.TeleBot(token)
-opizo_email = 'besthkrboy@gmail.com'
-start_msg = '*hi mr :) dev by : @MuteTeam and @MutePuker*'
+opizo_email = 'slotfi283@gmail.com'
+start_msg = '*hi mr :) dev by : @sl_king *'
 
 
 
@@ -85,11 +85,11 @@ def all(m):
 @bot.message_handler(commands=['rate'])
 def rate(m):
       markup = types.InlineKeyboardMarkup()
-      rate = types.InlineKeyboardButton('Rate',url='https://telegram.me/storebot?start=YourBotID')
+      rate = types.InlineKeyboardButton('Rate',url='https://telegram.me/storebot?start=uploader_robot')
       markup.add(rate)
-      bot.send_message(m.chat.id,'If you like me, please give 5 star rating at: https://telegram.me/storebot?start=YourBotID\nYou can also recommend me @YourBotID to your friends.\nHave a nice day!',reply_markup=markup)
+      bot.send_message(m.chat.id,'If you like me, please give 5 star rating at: https://telegram.me/storebot?start=uploader_robot\nYou can also recommend me @uploader_robot to your friends.\nHave a nice day!',reply_markup=markup)
 
 
 bot.polling(True)
 
-# dev by : @MutePuker
+# dev by : @sl_king
